@@ -3,7 +3,7 @@ const server = express();
 const port = 3000;
 
 server.all("/", (req, res) => {
-  res.send("Bot is running!");
+  res.send("<h1>U68D's EmBot is running!</h1>");
 });
 
 function keepAlive() {
